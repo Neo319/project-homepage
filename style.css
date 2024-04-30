@@ -83,8 +83,27 @@ div.about p {
 
 }
 
+main h1 {
+    font-weight: 400;
+}
+
+main h2 {
+    font-family: "Playfair Display", serif;
+}
+
 .item {
-    border: 2px solid orange;
+    /* background-color: #f1f1f1; */
+    background-color: #f9cb9c;
+    box-shadow: 2px 2px 10px gray;
+}
+
+.item .info {
+    padding-left: 2em;
+    padding-bottom: 1em;
+}
+
+.item h2 {
+    font-weight: 400
 }
 
 .item img {
