@@ -81,7 +81,6 @@ div.about p {
 
 
 .container {
-    border: 2px solid red;
     display: grid;
 
     grid-template-columns: 30% 30% 30%;
@@ -91,4 +90,40 @@ div.about p {
     padding-left: 5%;
     padding-right: 5%;
 
+}
+
+footer {
+    display: flex;
+    background-color: #4793AF;
+    color: white;
+    box-shadow: 2px 2px 10px gray;
+    justify-content: space-around;
+}
+
+.footer-img {
+    margin: 2em;
+}
+
+.contact {
+    padding: 2em;
+}
+
+.icon {
+    width: 2rem;
+    height: auto;
+}
+
+.phone {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 4rem;
+    font-size: 1.5em;
+
+    margin-bottom: 1em;
+}
+
+.footer-icon {
+    font-size: 2em;
+    padding: 0.3em;
 }
