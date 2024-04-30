@@ -146,3 +146,25 @@ footer {
     font-size: 2em;
     padding: 0.3em;
 }
+
+
+
+/* "mobile" style rules */
+
+@media (max-width: 900px) {
+    header {
+        flex-direction: column;
+    }
+
+    main h1 {
+        text-align: center;
+    }
+
+    .container {
+        grid-template-columns: 100%;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+}
