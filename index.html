@@ -5,23 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alex N. Homepage</title>
     <link rel="stylesheet" href="style.css">
+
+    <!-- getting fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
 </head>
-<body>
+<body class="playfair-display-font">
 
 
     <header>
 
-        <picture>
+        <div class="picture">
+            <picture>
+                <source media="(min-width: 800px)" srcset="./assets/kg1-500w.jpg">
+                <source media="(max-width: 799px)" srcset="./assets/kg1-300w.jpg">
 
 
-            <img src="./assets/kg1-300w.jpg" alt="(will be) Alex's face">
-        </picture>
-        
-        <h1>Alex Nevins (not yet pictured)</h1>
-
+                <img src="./assets/kg1-500w.jpg" alt="(will be) Alex's face">
+            </picture>
+            
+        </div>
+            
         <div class="about">
             <h1>About Me</h1>
-            <p>
+            <p class="roboto-thin">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tempor enim ut dapibus dapibus. 
                 Aliquam malesuada dui ex, quis bibendum diam posuere id. Suspendisse potenti. Aenean malesuada 
                 ultricies ornare. Proin vulputate ex a nulla condimentum convallis. Praesent luctus elit mauris,
@@ -37,21 +48,21 @@
         <h1>My Work</h1>
         <div class="container">
 
-            <div class="item">
+            <button class="item">
                 <img src="" alt="Screenshot of project 1">
                 <h2>Project Title</h2>
                 <p>Project description</p>
 
                 <a href="">GitHub Link</a>
-            </div>
+            </button>
 
-            <div class="item">
+            <button class="item">
                 <img src="" alt="Screenshot of project 2">
                 <h2>Project Title</h2>
                 <p>Project description</p>
 
                 <a href="">GitHub Link</a>
-            </div>
+            </button>
 
         </div>
     </body>
