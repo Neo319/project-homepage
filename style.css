@@ -11,20 +11,51 @@
     font-style: normal;
 }
 
+
+body {
+    margin: 0;
+}
+
+.background-shape {
+    background-color: #4793AF;
+    width: 110vw;
+    height: 15vh;
+
+    position: absolute;
+    top: 0;
+
+    /* transform: rotate(5deg); */
+
+    z-index: 0;
+
+
+    
+}
+
 header {
+    overflow: hidden;
+
     display: flex;
     align-items: center;
     justify-content: center;
 
 
-    margin: 4em;
+    padding: 4em;
 }
 
+.picture {
+    z-index: 1;
+}
 
 div.about {
-    /* border: 1px solid black; */
-    box-shadow: 3px 3px 10px gray;
+
+    box-shadow: 5px 5px 10px gray;
+
     padding: 2em;
+    background-color: white;
+
+    z-index: 1;
+
 
 }
 
