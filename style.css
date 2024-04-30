@@ -16,17 +16,29 @@ body {
     margin: 0;
 }
 
+.background-container {
+    position: absolute;
+
+    width: 100vw;
+    height: 80vh;
+    overflow: hidden;
+}
+
 .background-shape {
     background-color: #4793AF;
-    width: 110vw;
-    height: 15vh;
+    box-shadow: 2px 2px 10px gray;
+    width: 150vw;
+    height: 100vh;
+
 
     position: absolute;
-    top: 0;
-
-    /* transform: rotate(5deg); */
+    left: 50%;
+    bottom: 50%;
+    transform: translateX(-50%) rotate(-20deg);
 
     z-index: 0;
+
+    
 
 
     
