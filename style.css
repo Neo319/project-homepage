@@ -34,7 +34,7 @@ body {
     position: absolute;
     left: 50%;
     bottom: 50%;
-    transform: translateX(-50%) rotate(-20deg);
+    transform: translateX(-50%) rotate(8deg) translateY(-20%);
 
     z-index: 0;   
 }
@@ -160,6 +160,11 @@ footer {
 /* "mobile" style rules */
 
 @media (max-width: 600px) {
+    .background-shape {
+        width: 400vw;
+        transform: translateX(-50%) rotate(20deg) translateY(-5%);
+    }
+
     header {
         flex-direction: column;
     }
@@ -182,11 +187,19 @@ footer {
         overflow: hidden;
 
     }
+
+    .phone {
+        font-size: 1em;
+    }
 }
 
 
 /* "tablet" style rules   */
 @media (max-width: 900px) and (min-width: 600px) {
+    .background-shape {
+        transform: translateX(-50%) rotate(15deg) translateY(-5%);
+    }
+
     header {
         flex-direction: column;
     }
