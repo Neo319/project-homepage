@@ -30,8 +30,9 @@
 
         <div class="picture">
             <picture>
-                <source media="(min-width: 901px)" srcset="./assets/kg1-500w.jpg">
-                <source media="(max-width: 900px)" srcset="./assets/kg1-300w-portrait.jpg">
+                <source media="(min-width: 901px)"                              srcset="./assets/kg1-500w.jpg">
+                <source media="(max-width: 600px)"                              srcset="./assets/kg1-300w-portrait.jpg">
+                <source media="(max-width: 900px) and (min-width: 601px)"       srcset="./assets/kg1-300w.jpg">
 
 
                 <img src="./assets/kg1-500w.jpg" alt="(will be) Alex's face">
@@ -180,7 +181,14 @@
             
         </div>
 
-        <img class="footer-img" src="./assets/kg2-600w.jpg" alt="">
+        <div class="footer-img">
+            <picture>
+                <source media="(min-width: 901px)" srcset="./assets/kg2-600w.jpg">
+                <source media="(min-width: 601) and (max-width: 900)" srcset="./assets/kg2-900w.jpg">
+
+                <img src="./assets/kg2-900w.jpg" alt="">
+            </picture>
+        </div>
 
         
     </footer>

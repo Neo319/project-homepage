@@ -27,7 +27,7 @@ body {
 .background-shape {
     background-color: #4793AF;
     box-shadow: 2px 2px 10px gray;
-    width: 150vw;
+    width: 200vw;
     height: 100vh;
 
 
@@ -121,6 +121,8 @@ footer {
 
 .footer-img {
     margin: 2em;
+    width: 600px;
+    overflow: hidden;
 }
 
 .contact {
@@ -154,9 +156,10 @@ footer {
 
 
 
+
 /* "mobile" style rules */
 
-@media (max-width: 900px) {
+@media (max-width: 600px) {
     header {
         flex-direction: column;
     }
@@ -171,5 +174,36 @@ footer {
 
     footer {
         flex-direction: column;
+    }
+
+    .footer-img {
+        width: auto;
+        margin: 0;
+        overflow: hidden;
+
+    }
+}
+
+
+/* "tablet" style rules   */
+@media (max-width: 900px) and (min-width: 600px) {
+    header {
+        flex-direction: column;
+    }
+
+    .container {
+    grid-template-columns: 40% 40%;
+    justify-content: center;
+    }
+
+    footer {
+        flex-direction: column;
+        margin: 0;
+    }
+    
+    .footer-img {
+        width: auto;
+        margin: 0;
+        overflow: hidden
     }
 }
