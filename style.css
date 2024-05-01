@@ -145,6 +145,11 @@ footer {
 .footer-icon {
     font-size: 2em;
     padding: 0.3em;
+    padding-left: 0;
+}
+
+.attribution {
+    width: 50%;
 }
 
 
