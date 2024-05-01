@@ -177,7 +177,7 @@ footer {
     }
 
     .footer-img {
-        width: auto;
+        width: 100vw;
         margin: 0;
         overflow: hidden;
 
@@ -202,7 +202,7 @@ footer {
     }
     
     .footer-img {
-        width: auto;
+        width: 100vw;
         margin: 0;
         overflow: hidden
     }
